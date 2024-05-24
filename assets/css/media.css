@@ -1,0 +1,355 @@
+@media (max-width: 1200px) {
+  :root {
+    --sizeH1: 35px;
+    --lineHeightH1: 45px;
+    --letterH1: 10px;
+
+    --sizeH2: 32px;
+    --lineHeightH2: 48.44px;
+    --letterH2: 10px;
+
+    --sizeP: 30px;
+    --lineHeightP: 20px;
+    --letterP: 2px;
+
+    --sizePMini: 17px;
+  }
+
+  .unforgettable__inner--image {
+    max-width: 500px;
+  }
+  .images {
+    margin-top: 300px;
+  }
+  .second--blog {
+    margin-top: 90px;
+  }
+}
+
+@media (max-width: 1000px) {
+  :root {
+    --sizeH1: 30px;
+    --lineHeightH1: 35px;
+    --letterH1: 10px;
+
+    --sizeH2: 22px;
+    --lineHeightH2: 33.44px;
+    --letterH2: 5px;
+
+    --sizeP: 30px;
+    --lineHeightP: 20px;
+    --letterP: 2px;
+
+    --sizePMini: 15px;
+  }
+  .west__inner--image {
+    height: 400px;
+  }
+  .west__inner--image video {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+  }
+  .unforgettable__inner--image {
+    max-width: 50%;
+  }
+  .romance__inner {
+    margin-top: 30px;
+    gap: 30px;
+  }
+  .unforgettable {
+    margin-top: 100px;
+  }
+  .w-mt {
+    margin-top: -5px;
+  }
+  .text-white {
+    padding: 10px;
+  }
+  .unforgettable__inner--absoluteImages img {
+    width: 30%;
+  }
+  .aboutUs__inner--card-title {
+    padding-left: 20px;
+  }
+  .lova__inner--title {
+    padding: 0 10px;
+    gap: 27px;
+  }
+  .love__inner__absoluteImages {
+    bottom: -56%;
+  }
+  .love__inner__absoluteImages img:first-child {
+    margin-left: 30px;
+  }
+  .love__inner__absoluteImages img:nth-child(2) {
+    bottom: -100px;
+  }
+  .west {
+    margin-top: 400px;
+  }
+  .west__inner--image video {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --sizeH1: 30px;
+    --lineHeightH1: 35px;
+    --letterH1: 10px;
+
+    --sizeH2: 18px;
+    --lineHeightH2: 22px;
+    --letterH2: 5px;
+
+    --sizeP: 16px;
+    --lineHeightP: 20px;
+    --letterP: 2px;
+
+    --sizePMini: 15px;
+  }
+  .west__inner--image {
+    height: 330px;
+  }
+  .west__inner--image video {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+  }
+  .unforgettable__inner--absoluteImages {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .second--img {
+    margin-top: 60px;
+  }
+  .unforgettable__inner--title {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .unforgettable__inner--title--text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .unforgettable__inner--title h1 {
+    max-width: 80%;
+  }
+  .unforgettable__inner--title p {
+    max-width: 100%;
+  }
+  .unforgettable__inner {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .unforgettable__inner--image {
+    max-width: 100%;
+  }
+  .romance__inner {
+    margin-top: 30px;
+    gap: 30px;
+  }
+  .unforgettable {
+    margin-top: 100px;
+  }
+  .with_bg {
+    flex-direction: column-reverse;
+    padding-top: 30px;
+  }
+  .aboutUs__inner {
+    margin-top: 80px;
+  }
+  .aboutUs__inner--card {
+    flex-direction: column;
+  }
+  .aboutUs__inner--card img {
+    width: 100%;
+  }
+  .aboutUs__inner--title {
+    text-align: center;
+  }
+  .aboutUs__inner--card-title {
+    margin-top: 20px;
+    justify-content: start;
+    padding-left: 0;
+  }
+
+  .unforgettable__inner--absoluteImages img {
+    width: 38%;
+  }
+  .love {
+    margin-top: 80px;
+  }
+  .love__inner {
+    flex-direction: column-reverse;
+  }
+  .lova__inner--title {
+    padding: 10px;
+    padding-bottom: 100px;
+  }
+  .love__inner__absoluteImages {
+    bottom: -20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .love__inner__absoluteImages img {
+    width: 30%;
+  }
+  .love__inner__absoluteImages img:first-child {
+    margin-left: 0;
+  }
+  .love__inner__absoluteImages img:nth-child(2) {
+    position: sticky;
+  }
+  .west {
+    margin-top: 250px;
+  }
+  .west__inner--title span {
+    margin: 30px 0;
+  }
+  .west__inner--image video {
+    margin-top: 70px;
+  }
+  .images {
+    margin-top: 90px;
+  }
+  .first--blog img:nth-child(2) {
+    transform: translateY(-10%);
+  }
+  .second--blog {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .second--blog img:first-child {
+    width: 100%;
+  }
+  .second--blog img:nth-child(2) {
+    transform: translate(-52%, 20px);
+    width: 48%;
+  }
+  .third--blog img {
+    width: 48%;
+  }
+  .third--blog {
+    margin-top: 20px;
+  }
+  .third--blog img:first-child {
+    transform: translate(108%, -91%);
+    width: 48%;
+  }
+  .third--blog img:nth-child(2) {
+    transform: translate(0%, 25.5%);
+  }
+  .fourth--blog {
+    flex-direction: column;
+    margin-top: -450px;
+  }
+  .fourth--blog img:first-child {
+    transform: translate(-52%, 4%);
+
+    width: 48%;
+  }
+  .fourth--blog img:nth-child(2) {
+    width: 100%;
+    transform: translate(0, 26%);
+  }
+  .fifth--blog {
+    margin-top: 230px;
+  }
+  .images__inner--blog img {
+    width: 47%;
+  }
+  .sixth--blog img:nth-child(2) {
+    width: 50%;
+    transform: translate(-0, -202%);
+  }
+  .sixth--blog {
+    flex-direction: column;
+    margin-top: 345px;
+  }
+  .sixth--blog img:first-child {
+    width: 100%;
+  }
+  .seventh--blog {
+    margin-top: -508px;
+  }
+  .seventh--blog img {
+    width: 48%;
+  }
+  .seventh--blog img:first-child {
+    width: 46%;
+    transform: translate(24px, -20px);
+  }
+  .seventh--blog img:nth-child(2) {
+    transform: translate(-5%, 29%);
+    width: 60%;
+  }
+  .fifth--blog img:first-child {
+    transform: translateY(-16%);
+  }
+}
+
+@media (max-width: 445px) {
+  :root {
+    --sizeH1: 22px;
+    --lineHeightH1: 26.64px;
+    --letterH1: 5px;
+
+    --sizeH2: 16px;
+    --lineHeightH2: 19px;
+    --letterH2: 3px;
+
+    --sizeP: 14px;
+    --lineHeightP: 22px;
+    --letterP: 2px;
+
+    --sizePMini: 14px;
+  }
+  .unforgettable {
+    margin-top: 50px;
+  }
+  .unforgettable__inner--absoluteImages {
+    bottom: -80px;
+  }
+  .aboutUs__inner {
+    margin-top: -10px;
+    gap: 20px;
+  }
+  .love__inner__absoluteImages img {
+    width: 40%;
+  }
+  .love__inner__absoluteImages {
+    bottom: -10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .love {
+    margin-top: 40px;
+  }
+  .west {
+    margin-top: 100px;
+  }
+  .fourth--blog {
+    margin-top: -63%;
+  }
+  .fifth--blog {
+    margin-top: 30%;
+  }
+  .sixth--blog {
+    margin-top: 50%;
+  }
+  .seventh--blog {
+    margin-top: -72%;
+  }
+  .seventh--blog img:first-child {
+    transform: translate(13px, -20px);
+  }
+  .west__inner--image {
+    height: 220px;
+  }
+}
