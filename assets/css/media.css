@@ -22,6 +22,7 @@
   }
   .unforgettable__inner--image {
     max-width: 500px;
+    outline: none;
   }
   .images {
     margin-top: 300px;
