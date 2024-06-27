@@ -1,0 +1,14 @@
+{
+  "name": "wedding",
+  "version": "1.0.0",
+  "description": "verstka",
+  "main": "index.js",
+  "scripts": {
+    "test": "dsa"
+  },
+  "keywords": [
+    "123"
+  ],
+  "author": "abu",
+  "license": "ISC"
+}
